@@ -1,9 +1,148 @@
-<!doctype html>
-<html>
-  <head>
-    <title>This is the title of the webpage!</title>
-  </head>
-  <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-  </body>
+<!DOCTYPE html>
+<html lang="da">
+<head>
+
+    <title>BjarkeHolmgaard</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<!-- Dark mode toggle button code -->
+
+<input type="checkbox" id="theme-switch" hidden>
+
+<!-- Wraps whole site in div "site" for easier dark mode -->
+
+<div class="site">
+    <header class="site-header">
+        <nav class="top-menu">
+            <ul class="top-menu-buttons">
+                <li>
+                    <a href="https://twitter.com/" aria-label="Twitter/X">Twitter/X</a>
+                </li>
+                <li>
+                    <a href="https://github.com/bjarkeholmgaard" aria-label="GitHub">Git</a>
+                </li>
+                <li>
+                    <label for="theme-switch" class="theme-toggle" aria-label="Toggle dark mode">
+                        DARK MODE
+                    </label>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+
+    <main class="content">
+
+        <section class="intro">
+
+            <!-- Name -->
+
+            <h1 class="name">Bjarke Holmgaard</h1>
+
+            <!-- Avatar -->
+
+            <div class="avatar-frame">
+                <img src="avatar.jpg" alt="Avatar billede">
+            </div>
+
+            <!-- Description -->
+
+            <p class="description">
+                Developer studying AP Computer Science at EK in Copenhagen.<br>Oh, and I got flexboxes and dark mode to work on this site which makes me kind of a genius.
+            </p>
+
+        </section>
+
+        <!-- Education list -->
+
+        <section class="education">
+            <ul class="education-list">
+                <li>
+                    <span class="education-title">Proud former GameStop employee</span>
+                    <span class="education-description">Go invest in GME stocks right now</span>
+                </li>
+
+                <li>
+                    <span class="education-title">Former Manager at Hiper A/S</span>
+                    <span class="education-description">Can probably DDoS you at will</span>
+                </li>
+
+                <li>
+                    <span class="education-title">Basic Army Training</span>
+                    <span class="education-description">Patriotic</span>
+                </li>
+
+                <li>
+                    <span class="education-title">Ancient rank Dota 2 player</span>
+                    <span class="education-description">Will abandon for money</span>
+                </li>
+
+                <li>
+                    <span class="edu-sticker">CURRENT</span>
+                    <span class="education-title">Datamatiker / AP Computer Science at EK</span>
+                    <span class="education-description">Increasing brain power by the minute</span>
+                </li>
+
+            </ul>
+        </section>
+
+        <!-- Project list -->
+
+        <section class="projects">
+
+            <h2>Projects</h2>
+
+            <ul class="project-list">
+
+                <li>
+
+                    <h3>Project one</h3>
+                    <p>
+                        Lorem ipsum
+                    </p>
+
+                </li>
+
+                <li>
+
+                    <h3>Project two</h3>
+                    <p>
+                        Lorem ipsum
+                    </p>
+
+                </li>
+
+                <li>
+
+                    <h3>Project three</h3>
+                    <p>
+                        Lorem ipsum
+                    </p>
+
+                </li>
+
+            </ul>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="site-footer">
+
+        <h4>Contact ya boi</h4>
+        <p>Email: b.holmgaard2001@gmail.com<br>Studiemail: bjho0002@stud.ek.dk</p>
+        <p>This is a joke site - not to be taken seriously</p>
+
+
+    </footer>
+
+</div>
+</body>
 </html>
