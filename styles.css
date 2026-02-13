@@ -4,6 +4,7 @@
 
 /* Theme without dark mode */
 
+/*noinspection ALL*/
 .site {
     --bg: #f7f7f7;
     --bg-alt: #ffffff;
@@ -60,6 +61,7 @@ body {
     gap: 0.75rem;
 }
 
+/*noinspection CssUnresolvedCustomProperty*/
 .top-menu-buttons li {
     border: 1px solid var(--border);
     border-radius: 999px;
@@ -155,6 +157,7 @@ body {
 
 .edu-sticker {
     position: absolute;
+    top: 1rem;
     left: -0.8rem;
     background-color: #d64545;
     color: #fff;
