@@ -1,3 +1,7 @@
+/* Import for roboto font */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Theme without dark mode */
 
 .site {
@@ -151,7 +155,6 @@ body {
 
 .edu-sticker {
     position: absolute;
-    top: 0rem;
     left: -0.8rem;
     background-color: #d64545;
     color: #fff;
